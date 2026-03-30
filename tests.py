@@ -3,7 +3,7 @@ def functional_test():
 
 
 def performance_test():
-    print("Performance Testing Passed")
+    print("Performance stable")
 
 
 def security_test():
