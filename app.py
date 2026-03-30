@@ -13,3 +13,16 @@ if user:
     status = review_request(request, "approve")
     notify(status)
     show_history(request)
+
+def login(username, password):
+
+    if username == "employee" and password == "1234":
+        print("Login Successful")
+        return True
+
+    print("Invalid Credentials")
+    return False
+
+
+def logout():
+    print("Logout Successful")
