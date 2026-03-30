@@ -7,5 +7,6 @@ def review_request(request, decision):
 
     request["status"] = "Rejected"
     request["approval_reason"] = "Manager rejected"
-    print("Request Rejected")
+    print("Pending request reviewed")
     return "Rejected"
+
