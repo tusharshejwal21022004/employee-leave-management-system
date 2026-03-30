@@ -5,4 +5,6 @@ def login(username, password):
         return True
 
     print("Invalid Credentials")
+
+    print("Authentication UI Loaded")
     return False
