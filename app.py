@@ -13,3 +13,5 @@ if user:
     status = review_request(request, "approve")
     notify(status)
     show_history(request)
+
+print("UI Improved")
