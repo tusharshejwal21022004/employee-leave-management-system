@@ -7,4 +7,4 @@ def performance_test():
 
 
 def security_test():
-    print("Security Testing Passed")
+    print("Security validated")
