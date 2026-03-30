@@ -10,4 +10,5 @@ def create_leave_request(start_date, end_date, reason, leave_type):
 
     print("Leave Request Submitted")
 
+    request["employee"] = "employee"
     return request
