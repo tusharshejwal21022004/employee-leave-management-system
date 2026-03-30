@@ -7,3 +7,6 @@ def show_history(request):
     print("Leave History")
     for item in leave_history:
         print(item)
+
+def total_history():
+    return len(leave_history)
